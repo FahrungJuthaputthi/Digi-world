@@ -33,7 +33,7 @@ header img{
   height: 50px;
 }
 header ul{
-  max-width: 35%;
+  width: 30%;
   display: flex;
   justify-content: space-between;
   margin-left: 600px;
@@ -360,8 +360,11 @@ footer svg, footer rect{
 .footer_bottom_left img{
 margin-top: 40px;
 }
-footer p{
+footer a{
   margin-top: 65px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
 }
 .footer_bottom img{
   padding: 20px;
